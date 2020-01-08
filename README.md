@@ -4,5 +4,7 @@
 
 Just simple docker image running NginX responding to:
 ```
+/         # 404 Not Found
 /healthz  # 200 OK
+/readyz   # 200 OK
 ```
